@@ -1,0 +1,14 @@
+/* src/index.css */
+@import "tailwindcss";
+/* Keep your existing body styles */
+body {
+    background-color: white;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dark body {
+    background-color: #1a2a4f;
+}
+@custom-variant dark (&:where(.dark, .dark *));
